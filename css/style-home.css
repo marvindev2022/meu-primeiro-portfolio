@@ -1,0 +1,145 @@
+
+.home-hero-selection {
+  background-image: url(../../assets/home/image-homepage-hero.jpg);
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.sub-hero-selection {
+  background-color: #fffffff7;
+  width: 40%;
+  height: 61%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.texto-apresentacao {
+  margin: 60px 30px 50px 30px;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -0.446429px;
+  color: #33323D;
+}
+
+.btt-sobre-mim {
+  height: 48px;
+  width: 200px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #203A4C;
+  border: none;
+  cursor: pointer;
+}
+
+.btt-sobre-mim:hover {
+  color: #FFFFFF;
+  background: #5FB4A2;
+}
+
+.btt-topo {
+  margin: 20px 20px;
+  background-color: white;
+  border: none;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323D;
+}
+
+.btt-topo:hover {
+  background-color: white;
+  color: #5FB4A2;
+}
+.seta-down {
+  height: 38px;
+  width: 38px;
+  position: absolute;
+
+}
+
+.seta-down:hover {
+  height: 38px;
+  width: 38px;
+  position: absolute;
+
+}
+
+/* .sobre-mim {
+  display: flex;
+  justify-content: baseline;
+} */
+
+.sobre-selection {
+  flex-wrap: nowrap;
+}
+
+.imagem-profile {
+  width: 52%;
+  height: 99.5vh
+}
+
+
+.container-principal-sobre-mim {
+
+  width: 90vw;
+  height: 100vh;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  margin: 0 10%
+}
+.linha {
+  border: 2px solid rgba(93, 93, 93, 0.25);
+  width: 100%;
+  background-color: rgba(93, 93, 93, 0.25);
+}
+
+
+.container-texto-sobre-mim {
+  display: flex;
+  justify-content: space-between;
+  justify-items: baseline;
+  align-content: space-between;
+  flex-direction: column;
+  width: 130%;
+  height: 100%;
+}
+
+.h1-sobre-mim {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.p-sobre-mim {
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  color: #33323D;
+  opacity: 0.8;
+}
+
+

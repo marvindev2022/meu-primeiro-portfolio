@@ -1,0 +1,97 @@
+* {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #33323dd5;
+}
+
+p {
+  margin-top: 50px;
+  height: 180px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 50px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+div {
+  width: 40vw;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  border-top: 4px solid rgba(128, 128, 128, 0.606);
+}
+
+.entre-em-contato {
+  margin-top: 100px;
+  height: 82px;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 82px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.agrupar-logo-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-redes {
+  height: 50px
+}
+
+.agrupar-formulario {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.formulario-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  margin: 55px
+}
+
+input,
+textarea {
+  font-size: 30px;
+  ;
+  height: 68px;
+  width: 635px;
+  background-color: rgba(128, 128, 128, 0.641);
+}
+
+.btt-enviar {
+  height: 50.23627471923828px;
+  width: 205px;
+  cursor: pointer;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 7%;
+  background: #203A4C;
+}
+
+.redes-roda-pe {
+  padding-left: 25%;
+}
