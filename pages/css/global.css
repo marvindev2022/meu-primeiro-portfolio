@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -27,10 +27,10 @@ main {
 
 a {
   color: #ffffff00;
-  cursor: pointer;
 }
 
 .btt-topo {
+  width:auto;
   margin: 20px 20px;
   background-color: #F2F2F2;
   border: none;
@@ -90,8 +90,12 @@ a {
   border: none;
   color: #FFFFFF;
   background-color: #33323d00;
+
 }
 
+.btt-roda-pe:hover {
+  color: #5FB4A2;
+}
 .btt-redes-roda-pe,
 .redes {
   margin: 15px
@@ -125,6 +129,11 @@ a {
 
   color: #33323D;
   margin-left: -3%
+}
+
+.btt-ir-para-contato:hover {
+  color: #F2F2F2;
+  background-color: #33323D;
 }
 
 .pre-footer {
@@ -168,5 +177,6 @@ footer {
 
 
 .eu {
-  color: black
+  color: black;
+  cursor:pointer;
 }

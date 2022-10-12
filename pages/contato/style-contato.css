@@ -74,6 +74,12 @@ textarea {
   height: 68px;
   width: 635px;
   background-color: rgba(128, 128, 128, 0.641);
+  border:none
+}
+input:focus,
+textarea:focus {
+  border: 3px solid black;
+  background-color: rgba(128, 128, 128, 0.851);
 }
 
 .btt-enviar {
@@ -91,7 +97,9 @@ textarea {
   margin-left: 7%;
   background: #203A4C;
 }
-
+.btt-enviar:hover {
+background-color: #5FB4A2;
+}
 .redes-roda-pe {
   padding-left: 25%;
 }

@@ -49,27 +49,10 @@
   background: #5FB4A2;
 }
 
-.btt-topo {
-  margin: 20px 20px;
-  background-color: white;
-  border: none;
-  font-family: 'Public Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 14px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #33323D;
-}
-
-.btt-topo:hover {
-  background-color: white;
-  color: #5FB4A2;
-}
 .seta-down {
-  height: 38px;
-  width: 38px;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
   position: absolute;
 
 }
@@ -80,11 +63,6 @@
   position: absolute;
 
 }
-
-/* .sobre-mim {
-  display: flex;
-  justify-content: baseline;
-} */
 
 .sobre-selection {
   flex-wrap: nowrap;
