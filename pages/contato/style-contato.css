@@ -73,9 +73,10 @@ textarea {
   ;
   height: 68px;
   width: 635px;
+  border: none;
   background-color: rgba(128, 128, 128, 0.641);
-  border:none
 }
+
 input:focus,
 textarea:focus {
   border: 3px solid black;
@@ -83,8 +84,8 @@ textarea:focus {
 }
 
 .btt-enviar {
-  height: 50.23627471923828px;
   width: 205px;
+  height: 50.23627471923828px;
   cursor: pointer;
   font-family: 'Public Sans';
   font-style: normal;
@@ -93,13 +94,15 @@ textarea:focus {
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #FFFFFF;
   margin-left: 7%;
   background: #203A4C;
+  color: #FFFFFF;
 }
+
 .btt-enviar:hover {
-background-color: #5FB4A2;
+  background-color: #5FB4A2;
 }
+
 .redes-roda-pe {
   padding-left: 25%;
 }

@@ -12,12 +12,12 @@ header {
 }
 
 body {
-  background-color: #F2F2F2;
   display: flex;
   flex-direction: column;
   max-width: 100%;
   min-width: 100vw;
   overflow-x: hidden;
+  background-color: #f2f2f2;
 }
 
 main {
@@ -30,23 +30,23 @@ a {
 }
 
 .btt-topo {
-  width:auto;
-  margin: 20px 20px;
-  background-color: #F2F2F2;
-  border: none;
-  font-family: 'Public Sans';
+  width: auto;
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 14px;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #33323D;
+  margin: 20px 20px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #33323d;
 }
 
 .btt-topo:hover {
-  background-color: #F2F2F2;
-  color: #5FB4A2;
+  background-color: #f2f2f2;
+  color: #5fb4a2;
 }
 
 .hero-selection {
@@ -57,126 +57,122 @@ a {
 }
 
 .h1-texto-contatos {
-  font-family: 'Ibarra Real Nova';
+  width: 800px;
+  font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
   font-size: 380%;
   line-height: 62px;
   letter-spacing: -0.357143px;
-  width: 800px;
-  color: #33323D;
   margin-left: 50px;
+  color: #33323d;
 }
 
 .itens-a-esquerda {
   display: flex;
-  margin: 0% 5%
+  margin: 0% 5%;
 }
 
 .redes-roda-pe {
-  margin: 0% 5%
+  margin: 0% 5%;
 }
 
 .btt-roda-pe {
-  margin: 20px;
   height: 14px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin: 20px;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #33323d00;
-
 }
 
 .btt-roda-pe:hover {
-  color: #5FB4A2;
+  color: #5fb4a2;
 }
+
 .btt-redes-roda-pe,
 .redes {
-  margin: 15px
+  margin: 15px;
 }
 
 .btt-ir-para-portfolio {
-  height: 50.23627471923828px;
   width: 205px;
-  cursor: pointer;
-  font-family: 'Public Sans';
+  height: 50.23627471923828px;
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #33323D;
+  cursor: pointer;
+  color: #33323d;
 }
 
 .btt-ir-para-contato {
   height: 50.23627471923828px;
   width: 205px;
-  cursor: pointer;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 14px;
   letter-spacing: 2px;
+  margin-left: -3%;
   text-transform: uppercase;
+  cursor: pointer;
 
-  color: #33323D;
-  margin-left: -3%
+  color: #33323d;
 }
 
 .btt-ir-para-contato:hover {
-  color: #F2F2F2;
-  background-color: #33323D;
+  background-color: #33323d;
+  color: #f2f2f2;
 }
 
 .pre-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.81);
   width: 100vw;
   height: 10vh;
   max-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.81);
 }
 
 footer {
-  margin: 1% 5%;
   height: 14px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 14px;
   letter-spacing: 2px;
+  margin: 1% 5%;
   border: none;
   background-color: #33323d00;
-
 }
-
 
 .contato-selection {
   display: flex;
   justify-content: space-between;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #33323D;
-
+  color: #33323d;
 }
-
 
 .eu {
   color: black;
-  cursor:pointer;
+  cursor: pointer;
 }

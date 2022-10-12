@@ -1,32 +1,30 @@
-
 .home-hero-selection {
-  background-image: url(../../assets/home/image-homepage-hero.jpg);
   display: flex;
   align-items: flex-end;
   background-size: cover;
   height: 100vh;
+  background-image: url(../assets/home/image-homepage-hero.jpg);
 }
 
 
 .sub-hero-selection {
-  background-color: #fffffff7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 40%;
   height: 61%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  background-color: #fffffff7;
 }
 
 .texto-apresentacao {
-  margin: 60px 30px 50px 30px;
   font-family: 'Ibarra Real Nova';
   font-style: normal;
   font-weight: 700px;
   font-size: 80px;
-  line-height: 90px;
+  line-height: 100px;
   letter-spacing: -0.446429px;
+  margin: 60px 30px 50px 30px;
   color: #33323D;
 }
 
@@ -38,28 +36,21 @@
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
+  cursor: pointer;
+  border: none;
   color: #FFFFFF;
   background: #203A4C;
-  border: none;
-  cursor: pointer;
 }
 
 .btt-sobre-mim:hover {
-  color: #FFFFFF;
   background: #5FB4A2;
+  color: #FFFFFF;
 }
 
 .seta-down {
-  margin: 10px;
-  height: 30px;
   width: 30px;
-  position: absolute;
-
-}
-
-.seta-down:hover {
-  height: 38px;
-  width: 38px;
+  height: 30px;
+  margin:  10px 10px;
   position: absolute;
 
 }
@@ -76,25 +67,26 @@
 
 .container-principal-sobre-mim {
 
-  width: 90vw;
-  height: 100vh;
   justify-content: flex-end;
   justify-items: flex-end;
+  width: 90vw;
+  height: 100vh;
   margin: 0 10%
 }
+
 .linha {
-  border: 2px solid rgba(93, 93, 93, 0.25);
   width: 100%;
+  border: 2px solid rgba(93, 93, 93, 0.25);
   background-color: rgba(93, 93, 93, 0.25);
 }
 
 
 .container-texto-sobre-mim {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   justify-items: baseline;
   align-content: space-between;
-  flex-direction: column;
   width: 130%;
   height: 100%;
 }
@@ -116,8 +108,6 @@
   font-weight: 500;
   font-size: 25px;
   line-height: 50px;
-  color: #33323D;
   opacity: 0.8;
+  color: #33323D;
 }
-
-
