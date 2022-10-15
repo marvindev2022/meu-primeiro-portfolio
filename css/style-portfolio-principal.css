@@ -1,15 +1,15 @@
-.selection {
+.section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1%;
   height: 60vh;
 }
 
-.manage-selection,
-.bookmark-selection,
-.insure-selection,
-.fylo-selection {
-  width: 42vw;
+.manage-section,
+.bookmark-section,
+.insure-section,
+.fylo-section {
+  width: 44.5vw;
   height: 60vh;
 }
 
@@ -18,9 +18,8 @@
   flex-direction: column;
   justify-content: space-around;
   justify-items: center;
-  width: 30vw;
+  width: 35vw;
   height: 60vh;
-  margin: 0 50px;
   border-top: 4px solid rgba(128, 128, 128, 0.606);
   border-bottom: 4px solid rgba(128, 128, 128, 0.606);
 
@@ -59,9 +58,16 @@
   letter-spacing: -0.357143px;
   opacity: 0.8;
 }
-
-.btt-ir-para-contato {
-  margin: 0;
-  margin-right: 55px;
-  padding: 0;
+.btt-ir-para-portfolio {
+  width: 205px;
+  height: 50.23627471923828px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #33323d;
 }
