@@ -1,0 +1,117 @@
+.hero-section {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  height: 90vh;
+  background-image: url(../../assets/home/image-homepage-hero.jpg);
+}
+
+.div-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+  height: 61%;
+  background-color: #fffffff7;
+}
+.texto-apresentacao {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 75px;
+  line-height: 85px;
+  letter-spacing: -0.446429px;
+  margin: 40px 30px 40px 30px;
+  color: #33323d;
+}
+
+.btt-sobre-mim {
+  height: 48px;
+  width: 200px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  background: #203a4c;
+}
+
+.btt-sobre-mim:hover {
+  background: #5fb4a2;
+  color: #ffffff;
+}
+
+.btt-ir-para-portfolio {
+  width: 205px;
+  height: 50.23627471923828px;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #33323d;
+}
+
+.seta-down {
+  width: 30px;
+  height: 30px;
+  margin: 10px 10px;
+  position: absolute;
+}
+
+.texto {
+  margin-left: 30px;
+}
+
+.imagem-profile {
+  width: 52%;
+  height: 99vh;
+}
+
+.container-principal-sobre-mim {
+  width: 800px;
+  margin: 0 10%;
+}
+.linha {
+  width: 100%;
+  border: 2px solid rgba(93, 93, 93, 0.25);
+  background-color: rgba(93, 93, 93, 0.25);
+}
+
+.container-texto-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: baseline;
+  align-content: space-between;
+  width: 130%;
+  height: 100%;
+}
+
+.h1-sobre-mim {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+
+.p-sobre-mim {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 45px;
+  opacity: 0.8;
+  color: #33323d;
+}

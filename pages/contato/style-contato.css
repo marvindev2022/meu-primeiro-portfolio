@@ -1,21 +1,23 @@
 * {
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   color: #33323dd5;
 }
-
+a {
+  color: #33323d00;
+}
 p {
-  margin-top: 50px;
+  margin-top: 70px;
   height: 180px;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
   line-height: 50px;
-  color: #33323D;
+  color: #33323d;
   mix-blend-mode: normal;
   opacity: 0.8;
 }
@@ -28,19 +30,23 @@ div {
   display: flex;
   justify-content: space-between;
   height: 80vh;
+  margin-top: 50px;
   border-top: 4px solid rgba(128, 128, 128, 0.606);
 }
 
 .entre-em-contato {
-  margin-top: 100px;
+  margin-top: 80px;
   height: 82px;
-  font-family: 'Ibarra Real Nova';
+  font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
   line-height: 82px;
   letter-spacing: -0.357143px;
-  color: #33323D;
+  color: #33323d;
+}
+.main-contato-section {
+  border-top: 4px solid rgba(128, 128, 128, 0.606);
 }
 
 .agrupar-logo-texto {
@@ -50,27 +56,25 @@ div {
 }
 
 .logo-redes {
-  height: 50px
+  height: 50px;
 }
 
 .agrupar-formulario {
-  margin: 50px;
+  margin: 0 50px;
   display: flex;
   justify-content: space-around;
-
 }
 
 .formulario-label {
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  margin: 55px
+  margin: 80px 80px;
 }
 
 input,
 textarea {
   font-size: 30px;
-  ;
   height: 68px;
   width: 635px;
   border: none;
@@ -87,20 +91,20 @@ textarea:focus {
   width: 205px;
   height: 50.23627471923828px;
   cursor: pointer;
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-left: 7%;
-  background: #203A4C;
-  color: #FFFFFF;
+  margin: 0 0 10% 10.5%;
+  background: #203a4c;
+  color: #ffffff;
 }
 
 .btt-enviar:hover {
-  background-color: #5FB4A2;
+  background-color: #5fb4a2;
 }
 
 .redes-roda-pe {

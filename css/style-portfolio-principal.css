@@ -1,19 +1,15 @@
 .section {
   display: flex;
   justify-content: space-between;
-  padding: 1%;
   height: 60vh;
 }
 
-.manage-section,
-.bookmark-section,
-.insure-section,
-.fylo-section {
-  width: 44.5vw;
+.cards-section {
+  width: 45.5vw;
   height: 60vh;
 }
 
-.a2 {
+.container-texto-section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,12 +18,12 @@
   height: 60vh;
   border-top: 4px solid rgba(128, 128, 128, 0.606);
   border-bottom: 4px solid rgba(128, 128, 128, 0.606);
-
 }
 
 .hero {
   width: 100%;
   height: 100%;
+  background-size: cover;
 }
 
 .imagem-hero {
@@ -36,25 +32,22 @@
 }
 
 .texto-titulo {
-
-  font-family: 'Ibarra Real Nova';
+  font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 42px;
   letter-spacing: -0.357143px;
-  color: #33323D;
-
+  color: #33323d;
 }
 
 .texto-descricao {
-
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 50px;
-  color: #33323D;
+  color: #33323d;
   letter-spacing: -0.357143px;
   opacity: 0.8;
 }
@@ -69,5 +62,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
+  background-color: #ffffff;
   color: #33323d;
 }
