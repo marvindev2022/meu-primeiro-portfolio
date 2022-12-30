@@ -18,6 +18,7 @@
   height: 60vh;
   border-top: 4px solid rgba(128, 128, 128, 0.606);
   border-bottom: 4px solid rgba(128, 128, 128, 0.606);
+  margin-bottom: 5px;
 }
 
 .hero {

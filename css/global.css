@@ -23,13 +23,13 @@ body {
   padding: 10px 50px;
 }
 
-main {
+section {
   display: flex;
   margin: 50px 80px;
 }
 
 a {
-  color: #33323d;
+  color: #00000000;
 }
 
 .btt-topo {
@@ -147,7 +147,7 @@ a {
   color: #33323d;
 }
 
-.pre-footer {
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,24 +158,3 @@ a {
   margin-left: -50px;
 }
 
-.eu {
-  color: #33323d;
-  cursor: pointer;
-}
-
-.eu:hover {
-  color: #5fb4a2;
-}
-
-footer {
-  height: 14px;
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 14px;
-  letter-spacing: 2px;
-  margin: 1% 5%;
-  border: none;
-  background-color: #33323d00;
-}
